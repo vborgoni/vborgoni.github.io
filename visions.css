@@ -83,3 +83,32 @@ tbody tr:nth-child(even) {background-color: #f7f3eb;}
 table, th, td {border: 1px solid #252525;}
 th,td {padding:8px;
         text-align:left;}
+form {display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-left: 1em;
+    width: 80%;}
+input, textarea {margin-bottom: 0.5em;}
+#form-h3 {color:#252525;}
+.image-row {display: flex;
+            justify-content: space-between;
+            gap: 5px;}
+.image-row img {width: 25%;
+            height:auto;
+            object-fit: cover;}
+.image-row2 img {display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            justify-content: center;}
+.image-row3 img {display: inline-block;
+                width: 50%;
+                gap: 5px;
+                height: auto;
+                }
+.image-row3 {display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+               justify-content:center;
+            width: 100%;}
+
