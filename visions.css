@@ -65,17 +65,18 @@ main { flex: 1;
                 padding: 0 20px;}
 .gallery-item {border: 1px solid;
             border-radius: 5px;
-            height: 400px;
+            height: auto;
             display:flex;
             margin-bottom: 10px;
             break-inside: avoid;
         overflow: hidden;
-    position: relative;}
+    position: relative;
+              aspect-ratio: 1;}
 .gallery-item img {max-width: 100%;
                 max-height: 100%;
                 min-width: 100%;
                 min-height: 100%;
-                object-fit: cover;
+                object-fit: contain;
                 display: block;}
 table {border: 5px solid #252525;
     border-collapse: collapse;}
